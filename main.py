@@ -18,7 +18,7 @@ follower = tweepy.Cursor(api.get_follower_ids, cursor = -1).items()
 follower_list = []
 
 for followers in follower:
-    follower_list.append(follower)
+    follower_list.append(followers)
 
 print("Checking follower description...")
 while len(follower_list) > 0:
