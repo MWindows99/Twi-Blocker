@@ -1,11 +1,12 @@
 import tweepy
 
-# API
+# API Key
 API_KEY = 'xxxx'
 API_SECRET = 'xxxx'
 ACCESS_TOKEN = 'xxxx-xxxx'
 ACCESS_TOKEN_SECRET = 'xxxx'
-words = "ブロック対象の用語"
+# ブロック対象の用語
+words = "裏アカ女子"
 
 # Create Object
 auth = tweepy.OAuthHandler(API_KEY, API_SECRET)
