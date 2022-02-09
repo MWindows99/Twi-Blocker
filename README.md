@@ -1,6 +1,9 @@
 # Twi-Blocker
 怪しいTwitterアカウントを自動でブロックします
 
+# Work
+This software will blocks users who are your followers and whose description contains blocking terms.
+
 # Important
 - I have not confirmed the operation. If it doesn't work, please send me a pull request.
 - This software will automatically block users.
