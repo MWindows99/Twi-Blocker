@@ -6,6 +6,7 @@
 - This software will automatically block users.
 - May be considered spam by Twitter.
 - This software only works with Twitter API 1.1
+- If you have many followers, it will take time to process.
 
 # Usage
 You need a tweepy library.
