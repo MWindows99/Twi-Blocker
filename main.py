@@ -30,7 +30,7 @@ while len(follower_list) > 0:
     user_check = follower_list.pop(0)
     now_lists = lists - len(follower_list)
     description = str(api.get_user(user_id=user_check).description)
-    print("Checking... (" + str(now_lists) + " of " + str(lists))
+    print("Checking... ( " + str(now_lists) + " of " + str(lists) +" )")
     if words in description:
         #block
         api.create_block(user_id=user_check)
