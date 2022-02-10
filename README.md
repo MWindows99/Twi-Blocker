@@ -1,5 +1,5 @@
 # Twi-Blocker
-怪しいTwitterアカウントを自動でブロックします
+Automatically block suspicious Twitter accounts.
 
 # Work
 This software will blocks users who are your followers and whose description contains blocking terms.
